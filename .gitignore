@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pt
+*.bin
+*.safetensors
+*.joblib
+*.csv
+*.ipynb_checkpoints
+models/whisper-small-finetuned/
+models/whisper-ct2/

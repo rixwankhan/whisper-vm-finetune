@@ -1,0 +1,30 @@
+# Core inference
+faster-whisper==1.0.3
+ctranslate2==4.5.0
+torch>=2.1.0
+torchaudio>=2.1.0
+
+# Audio + utils
+soundfile==0.12.1
+librosa==0.10.2.post1
+pydub==0.25.1
+numpy==1.26.4
+pandas==2.2.2
+
+# Text classifier
+scikit-learn==1.5.2
+joblib==1.4.2
+
+# Service
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+websockets==12.0
+
+# Optional fine-tuning
+transformers==4.43.3
+datasets==2.20.0
+accelerate==0.33.0
+evaluate==0.4.2
+jiwer==3.0.4
+huggingface_hub==0.24.6
+sentencepiece==0.2.0
