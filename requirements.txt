@@ -10,6 +10,7 @@ librosa==0.10.2.post1
 pydub==0.25.1
 numpy==1.26.4
 pandas==2.2.2
+tqdm>=4.65.0
 
 # Text classifier
 scikit-learn==1.5.2
